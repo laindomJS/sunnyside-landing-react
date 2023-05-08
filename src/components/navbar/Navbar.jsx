@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Flex, Image, Icon } from '@chakra-ui/react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import { NavbarMenu } from './NavbarMenu'
+import NavbarMenu from './NavbarMenu'
 
 import logo from '../../assets/logo.svg'
 
@@ -24,7 +24,7 @@ export const Navbar = () => {
       position='relative'
     >
       <Image w='150px' src={logo} alt='the logo of sunnyside company' cursor='pointer' />
-      <NavbarMenu />   
+      <NavbarMenu condition={open} />   
       <Icon 
         as={!open ? FaBars : FaTimes} 
         boxSize={6}

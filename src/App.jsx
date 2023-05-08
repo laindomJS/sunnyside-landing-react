@@ -1,11 +1,13 @@
-import { Box } from '@chakra-ui/react'
+import { chakra } from '@chakra-ui/react'
 import { HeaderContainer } from './components/header/HeaderContainer'
+import { MainContainer } from './components/main/MainContainer'
 
 function App() {
   return (
-    <Box as='main' minH='100vh' maxW='100%'>
+    <chakra.main minH='100vh' maxW='100%'>
       <HeaderContainer />
-    </Box>
+      <MainContainer />
+    </chakra.main>
   )
 }
 

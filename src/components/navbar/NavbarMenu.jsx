@@ -1,7 +1,8 @@
+import { PropTypes } from 'prop-types'
 import { Flex } from '@chakra-ui/react'
 import MenuOption from './MenuOption' 
 
-export const NavbarMenu = () => {
+const NavbarMenu = ({ condition }) => {
   return (
     <Flex 
     position={{ base:'absolute', md:'relative', lg:'relative' }}
@@ -10,7 +11,7 @@ export const NavbarMenu = () => {
     bgColor={{ base:'white', md:'transparent' }}
     padding={{ base:'1rem', md:'0px' }}
     color={{ base:'neutral.grayish-blue', md:'inherit' }}
-    top={{ base: open ? '80px' : '-1000px', md: '0px' }}
+    top={{ base: condition ? '80px' : '-1000px', md: '0px' }}
     left='25px'
     alignItems='center' 
     transition='.3s ease-in top'
@@ -22,3 +23,9 @@ export const NavbarMenu = () => {
   </Flex>
   )
 }
+
+NavbarMenu.propTypes = {
+  condition: PropTypes.bool
+}
+
+export default NavbarMenu
