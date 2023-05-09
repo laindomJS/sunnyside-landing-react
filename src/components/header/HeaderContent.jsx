@@ -7,7 +7,7 @@ export const HeaderContent = () => {
     <Heading 
       textTransform='uppercase' 
       textAlign={{ base:'center', md:'' }}
-      fontSize={{base:'30px', md:'55px'}} 
+      fontSize={{base:'30px', md:'45px'}} 
       w='fit-content' 
       mx='auto' 
       color='white' 
