@@ -21,7 +21,9 @@ const TestimonialCard = (profile) => {
         <Heading as='h3' fontSize='20px' color='neutral.very-dark-desaturated-blue'>
           {profile.name}
         </Heading>
-        <Text color='neutral.grayish-blue' mt='.5rem'>{profile.ocupattion}</Text>
+        <Text color='neutral.grayish-blue' mt='.5rem'>
+          {profile.ocupattion}
+        </Text>
       </Box>
   
   </chakra.article>

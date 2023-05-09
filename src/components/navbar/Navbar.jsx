@@ -3,7 +3,7 @@ import { Flex, Image, Icon } from '@chakra-ui/react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import NavbarMenu from './NavbarMenu'
 
-import logo from '../../assets/logo.svg'
+import logo from '/logo.svg'
 
 export const Navbar = () => {
 

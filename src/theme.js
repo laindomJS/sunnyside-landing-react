@@ -11,7 +11,8 @@ export const theme = extendTheme({
       'yellow': 'hsl(51, 100%, 49%)',
       'dark-desaturated-cyan': 'hsl(167, 40%, 24%)', // graphic design text
       'dark-blue': 'hsl(198, 62%, 26%)', // photography text
-      'dark-moderate-cyan': 'hsl(168, 34%, 41%)' // footer
+      'dark-moderate-cyan': 'hsl(168, 34%, 41%)', // footer
+      'desaturated-cyan': '#91D3C3' // footer bg
     },
     neutral: {
       'very-dark-desaturated-blue': 'hsl(212, 27%, 19%)',

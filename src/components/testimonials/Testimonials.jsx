@@ -11,8 +11,8 @@ export const Testimonials = () => {
       justifyContent='center' 
       alignItems='center'
       textAlign='center'
-      p={{ md:'4rem' }}
-      py={{ base:'3rem' }}
+      px={{ base:'0px', md:'1rem' }}
+      py='6rem'
     >
       <Box w='90%'>
         <Heading 

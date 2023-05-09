@@ -2,6 +2,8 @@ import { chakra } from '@chakra-ui/react'
 import { HeaderContainer } from './components/header/HeaderContainer'
 import { MainContainer } from './components/main/MainContainer'
 import { Testimonials } from './components/testimonials/Testimonials'
+import { Gallery } from './components/gallery/Gallery'
+import { Footer } from './components/footer/Footer'
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <HeaderContainer />
       <MainContainer />
       <Testimonials />
+      <Gallery />
+      <Footer />
     </chakra.main>
   )
 }
